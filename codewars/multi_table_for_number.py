@@ -1,15 +1,13 @@
-def multiTable(n): 
-    i = 1
+def multiTable(multiplicando): 
+    UNO = 1
+    DIEZ = 10
     
-    tabla = ""
+    tabla_de_multiplicar = ""
 
-    while i < 11:
-        if i==10:
-            tabla += str(i) + " * " + str(n) + " = " + str(i * n)
-        else:
-            tabla += str(i) + " * " + str(n) + " = " + str(i * n) + "\n"
-        i += 1
-    return tabla
-  
+    for multiplicador in range(UNO, DIEZ + UNO):
+            tabla_de_multiplicar += f"{multiplicador} * {multiplicando} = {multiplicador * multiplicando}\n"
+    
+    return tabla_de_multiplicar [:-1]
+    
 
 print(multiTable(5))
