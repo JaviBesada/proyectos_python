@@ -22,9 +22,9 @@ def calculadora_media(x): # Quitamos la y que estaba aqui porque no la usa en el
     minimo = min(x)  # ¿Qué representa "w"? Representa el valor mínimo de los números en la lista "x". Se lo cambiamos a "minimo" para que sea más descriptivo.
     return media, maximo, minimo
 
-color_RED = 1
-color_GREEN = 2
-color_BLUE = 3
+COLOR_RED = 1
+COLOR_GREEN = 2
+COLOR_BLUE = 3
 
 # Función con un nombre que no describe su propósito, por eso la cambiamos a "mostrar_estadisticas" para que sea descriptivo.
 def mostrar_estadisticas(): 
